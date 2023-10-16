@@ -1,0 +1,8 @@
+name: FancyMobs
+version: '${project.version}'
+main: org.zaksen.fancymobs.FancyMobs
+api-version: '1.16'
+authors: [Zaksen_]
+commands:
+  spawn_boss:
+    description: summon new zombie boss

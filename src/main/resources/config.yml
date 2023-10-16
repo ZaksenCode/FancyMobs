@@ -1,0 +1,146 @@
+# chance to transform mob into mini boss
+mini_boss_chance: 0.05 # 0.0 - 1.0 (0% - 100%)
+
+blacklist:
+  - DROPPED_ITEM
+  - COW
+  - SHEEP
+  - PIG
+  - CHICKEN
+  - CAT
+  - OCELOT
+  - FALLING_BLOCK
+  - ARROW
+  - SPECTRAL_ARROW
+  - SPLASH_POTION
+  - SNOWBALL
+  - AREA_EFFECT_CLOUD
+  - ARMOR_STAND
+  - BEE
+  - BOAT
+  - MINECART
+  - MINECART_CHEST
+  - MINECART_FURNACE
+  - MINECART_HOPPER
+  - MINECART_COMMAND
+  - MINECART_TNT
+  - SMALL_FIREBALL
+  - FIREBALL
+  - FIREWORK
+  - DRAGON_FIREBALL
+  - FISHING_HOOK
+
+mobs:
+  # Items on mobs spawn change
+  items:
+    helmet:
+      NETHERITE_HELMET: 0.02
+      DIAMOND_HELMET: 0.08
+      IRON_HELMET: 0.2
+      CHAINMAIL_HELMET: 0.15
+      GOLDEN_HELMET: 0.18
+      LEATHER_HELMET: 0.15
+      AIR: 0.22
+    chestplate:
+      NETHERITE_CHESTPLATE: 0.02
+      DIAMOND_CHESTPLATE: 0.08
+      IRON_CHESTPLATE: 0.2
+      CHAINMAIL_CHESTPLATE: 0.15
+      GOLDEN_CHESTPLATE: 0.18
+      LEATHER_CHESTPLATE: 0.15
+      AIR: 0.22
+    leggins:
+      NETHERITE_LEGGINGS: 0.02
+      DIAMOND_LEGGINGS: 0.08
+      IRON_LEGGINGS: 0.2
+      CHAINMAIL_LEGGINGS: 0.15
+      GOLDEN_LEGGINGS: 0.18
+      LEATHER_LEGGINGS: 0.15
+      AIR: 0.22
+    boots:
+      NETHERITE_BOOTS: 0.02
+      DIAMOND_BOOTS: 0.08
+      IRON_BOOTS: 0.2
+      CHAINMAIL_BOOTS: 0.15
+      GOLDEN_BOOTS: 0.18
+      LEATHER_BOOTS: 0.15
+      AIR: 0.22
+    mainhand:
+      AIR: 0.05
+      CARROT: 0.05
+      BREAD: 0.05
+      APPLE: 0.05
+      BOW: 0.05
+      # swords - 0.25
+      WOODEN_SWORD: 0.05
+      STONE_SWORD: 0.05
+      GOLDEN_SWORD: 0.06
+      IRON_SWORD: 0.04
+      DIAMOND_SWORD: 0.03
+      NETHERITE_SWORD: 0.02
+      # axes - 0.25
+      WOODEN_AXE: 0.05
+      STONE_AXE: 0.05
+      GOLDEN_AXE: 0.06
+      IRON_AXE: 0.04
+      DIAMOND_AXE: 0.03
+      NETHERITE_AXE: 0.02
+      # shovel - 0.25
+      WOODEN_SHOVEL: 0.05
+      STONE_SHOVEL: 0.05
+      GOLDEN_SHOVEL: 0.06
+      IRON_SHOVEL: 0.04
+      DIAMOND_SHOVEL: 0.03
+      NETHERITE_SHOVEL: 0.02
+    offhand:
+      AIR: 0.7
+      SHIELD: 0.1
+      TNT: 0.05
+      GOLD_INGOT: 0.05
+      IRON_INGOT: 0.05
+      TOTEM_OF_UNDYING: 0.05
+
+  health:
+    min: 15
+    max: 40
+
+mob_effects:
+  SPEED:
+    min: 0
+    max: 3
+  JUMP:
+    min: 0
+    max: 3
+  INCREASE_DAMAGE:
+    min: 0
+    max: 4
+
+  # effect: level
+boss_effects:
+  INCREASE_DAMAGE:
+    min: 2
+    max: 5
+  SPEED:
+    min: 1
+    max: 7
+  JUMP:
+    min: 1
+    max: 6
+  DAMAGE_RESISTANCE:
+    min: 0
+    max: 2
+
+mini_bosses:
+  # personal mob settings
+  SKELETON:
+    health:
+      min: 30
+      max: 100
+  ZOMBIE:
+    health:
+      min: 50
+      max: 150
+  SPIDER:
+    health:
+      min: 30
+      max: 60
